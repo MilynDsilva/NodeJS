@@ -1,0 +1,19 @@
+const fs = require('fs');
+
+
+// const files = fs.readdirSync('./');
+
+// console.log(files);
+
+
+//fs.readdir('$',function(err,files){ //error
+
+
+fs.readdir('./',function(err,files){
+    if(err) console.log('Error',err);
+    else console.log('Result',files);
+});
+
+
+
+//https://nodejs.org/dist/latest-v8.x/docs/api/fs.html

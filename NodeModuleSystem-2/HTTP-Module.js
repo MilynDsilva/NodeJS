@@ -13,6 +13,13 @@ const server = http.createServer((req, res)=> {
 }); //server is event emitter
 
 
+// server. on( ' connection', (socket) => {
+
+//     console. log( 'New connection. . . ');
+    
+//     server. listen (3000) ;
+// }    
+
 
 server.listen(3000);
 
